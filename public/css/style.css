@@ -1,0 +1,138 @@
+/*body, html {*/
+    /*height: 100%;*/
+    /*margin: 0;*/
+/*}*/
+
+/*.bg {*/
+    /*!* The image used *!*/
+    /*background-image: url("../news-img/home.jpg");*/
+
+    /*!* Full height *!*/
+    /*height: 100%;*/
+
+    /*position: relative;*/
+    /*opacity: 0.65;*/
+    /*!* Center and scale the image nicely *!*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+/*.caption {*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 20%;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.caption span.border {*/
+    /*color: #000000;*/
+    /*padding: 18px;*/
+    /*font-size: 25px;*/
+    /*letter-spacing: 2px;*/
+    /*font-family: 'Vidaloka', serif;*/
+/*}*/
+/*.font12px{*/
+    /*font-size: 12px;*/
+/*}*/
+/*.logo{*/
+    /*font-family: 'Vidaloka', serif;*/
+    /*font-size: 35px;*/
+    /*color: aliceblue;*/
+    /*padding-left: 20px;*/
+    /*padding-top: 10px;*/
+/*}*/
+
+
+
+.navbar.md-navbar{
+    border-radius: 0px !important;
+    min-height: 60px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-family: 'Audiowide', cursive;
+}
+
+.md-search-bar{
+    padding-left: 10px !important;
+    padding-top: 10px;
+    margin-right: -10px;
+    max-width: 250px;
+}
+
+
+
+.md-navbar-link{
+    padding: 20px !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .md-search-bar {
+        padding-left: 0px !important;
+        padding-right: 10px !important;
+        max-width: 100%;
+        margin-right: -5px !important;
+        margin-bottom: 10px;
+    }
+    .md-navbar-link{
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+
+    .md-news{
+        padding-left: 0px;
+    }
+}
+
+
+.md-carousel{
+    max-height: 425px;
+}
+
+.md-carousel-caption{
+    top: 0px !important;
+}
+
+.md-body{
+    margin-top: 30px;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+    border-style: groove;
+}
+
+.md-weather{
+    background-color: #3a4147;
+    color: white;
+    border: solid 1px black;
+    margin-bottom: 30px;
+}
+
+.md-nav-news{
+    background-color: #3a4147;
+}
+
+.md-news{
+    /*padding-left: 0px;*/
+    padding-right: 0px;
+}
+
+.md-nav-news > li.active > a,
+.md-nav-news > li.active > a:hover,
+.md-nav-news > li.active > a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 5px solid red;
+    border-radius: 0px;
+}
+
+.md-nav-news > li > a:hover{
+    background-color: transparent;
+}
