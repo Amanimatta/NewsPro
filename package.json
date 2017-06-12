@@ -5,10 +5,8 @@
   "description": "A starter project for AngularJS",
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
-  "devDependencies": {
-    
-  },
-  "scripts": {
-    
+  
+  "dependencies": {
+    "express": "^4.15.3"
   }
 }
